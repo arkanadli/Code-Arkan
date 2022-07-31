@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Press+Start+2P&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 24px;
+}
+header  {  /* ini code container navigasi */
+    border: 1px solid orange; 
+    padding: 4px;
+    display: flex;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    color: rgb(240, 157, 4);
+    background-image: url(back3.jpg);
+    background-size: cover;
+    margin:0;
+}
+.mainpage{ /* ini code gambar samurai, dimana hendak diisi konten nantinya */ 
+    margin: 50px 0px 0px 10%; 
+    width: 80%;
+    height: 100vh;
+    opacity: 40%;
+    border-radius: 110px;
+    background-image: url(back5.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.logo {
+    display: inline-block;
+    /* border: 1px solid white; */
+    flex-grow: 1;
+    font-family: 'Press Start 2P', cursive , serif;
+    font-size: smaller;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 6px;
+    
+}
+nav{
+    /* border: 1px solid red; */
+    
+    flex-grow: 3;
+    text-align: right;
+    font-family: 'Cinzel', serif;
+}
+nav li {
+    display: inline;
+    
+    box-sizing: border-box;
+}
+
+nav li:hover {
+    background-color: rgb(46, 37, 12);
+    border-radius: 25px;
+    font-weight: bolder;
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: rgb(240, 157, 4);
+    /* border: 1px solid red; */
+    padding: 0 5%;
+    font-size: 0.8em;
+}
+    
+    
+
+body{
+   background-image: url(back3.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100%;
+}
+main {
+    color: rgba(255, 255, 255, 0);
+}
+footer{
+    width: 100%;
+    height: 200px;
+}
+
+@media screen and (max-width: 850px) {
+    header{
+        flex-direction: column;
+         height: 55px;
+
+    }
+    nav {
+        text-align: center;
+        flex-grow: 1;
+    }
+}
+@media screen and (max-width: 540px){
+    nav li a {
+        padding: 0 1%;
+    }
+} 
+
