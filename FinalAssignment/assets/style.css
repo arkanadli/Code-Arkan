@@ -261,6 +261,8 @@ main {
     padding: 20px;
     font-size: 26px;
     letter-spacing: 3px;
+    text-align: center;
+    
 }
 .about-us p{
     font-size: 20px;
@@ -288,6 +290,7 @@ main {
     font-size: 26px;
     padding: 20px;
     letter-spacing: 2px;
+    text-align: center;
 }
 .biodata-diri img{
     width: 40%;
@@ -478,10 +481,12 @@ footer p{
         font-size: 14px;
     }
     .about-us h1{
-        font-size: 22px;
+        font-size: 20px;
+        letter-spacing: 0px;
     }
     .about-us p{
         font-size: 16px;
+        letter-spacing: 0px;
     }
     .desc p {
         letter-spacing: 0px;
