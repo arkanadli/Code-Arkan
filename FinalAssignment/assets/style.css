@@ -199,7 +199,7 @@ main {
 }
 
 .desc p {
-    font-family:cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 1px;
     word-spacing: 4px;
     text-align: justify;
@@ -321,6 +321,8 @@ footer p{
     margin: auto;
     align-items: center;
     font-size: 16px;
+    font-family:monospace  ;
+    letter-spacing: 2px;
 }
 .heroes {
     
