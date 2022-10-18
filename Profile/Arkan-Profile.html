@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        color: white;
+        font-family: monospace;
+    }
+
+    body {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+    }
+
+    body::before {
+        content: "";
+        background-image: url('https://cdn.discordapp.com/attachments/962161093457883176/1024504323738189874/back3.jpg');
+        background-repeat: no-repeat;
+
+        background-size: cover;
+        background-position: 200px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        /* sampai sini adalah minimal untuk menambah konten background */
+        height: 100%;
+        opacity: 60%;
+
+
+    }
+
+    .container {
+        display: flex;
+        width: 100%;
+        margin: 30px;
+        position: relative;
+
+
+    }
+
+    .biodata {
+        float: right;
+        margin-left: 50px;
+        font-size: 40px;
+        width: 52%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        box-shadow: 0px 0px 45px 19px rgba(191, 0, 0, 0.404);
+        -webkit-box-shadow: 0px 0px 45px 19px rgba(191, 0, 0, 0.438);
+        -moz-box-shadow: 0px 0px 45px 19px rgba(191, 0, 0, 0.418);
+        border-radius: 30px;
+        padding: 20px;
+        background-color: rgba(10, 10, 10, 0.421);
+        border: 2px solid white;
+    }
+
+    .biodata p,
+    .biodata marquee {
+        margin: 10px;
+    }
+
+    .container .foto {
+        float: left;
+        margin: 0px 100px;
+        border: 1px black dashed;
+        height: 50vh;
+        box-sizing: border-box;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 45px 19px rgba(191, 0, 0, 0.404);
+        -webkit-box-shadow: 0px 0px 45px 19px rgba(191, 0, 0, 0.438);
+        -moz-box-shadow: 0px 0px 45px 19px rgba(191, 0, 0, 0.418);
+        border-radius: 30px;
+        background-color: rgba(10, 10, 10, 0.421);
+        border: 2px solid white;
+
+    }
+
+    .foto img {
+        height: 100%;
+    }
+
+    article {
+        position: relative;
+        font-size: 24px;
+        box-shadow: 0px 0px 45px 19px rgba(191, 0, 0, 0.404);
+        -webkit-box-shadow: 0px 0px 45px 19px rgba(191, 0, 0, 0.438);
+        -moz-box-shadow: 0px 0px 45px 19px rgba(191, 0, 0, 0.418);
+        margin: auto;
+        width: 80%;
+        margin-top: 10vh;
+        height: 20vh;
+        padding: 20px;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 30px;
+        background-color: rgba(10, 10, 10, 0.421);
+        border: 2px solid white;
+    }
+
+    hr {
+        position: relative;
+    }
+
+    footer {
+        width: 100%;
+        text-align: center;
+        background-color: black;
+        position: absolute;
+        bottom: 0;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: grey solid 1px;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    footer pre {
+        font-size: 24px;
+    }
+
+    #myVideo {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+
+    }
+</style>
+
+<body>
+    
+    <div class="container">
+        <div class="foto">
+            <img src="https://cdn.discordapp.com/attachments/962161093457883176/1024504324228915200/fotoarkan2.jpeg">
+        </div>
+
+        <div class="biodata">
+            <p> Muhammad Arkan Adli</p>
+            <p> Malang 08/12/2003 </p>
+            <marquee> LIFE GOES ON !!!</marquee>
+        </div>
+    </div>
+    <hr>
+    <article>
+        <p> Lahir di Malang dan hidup berpindah-pindah membuat diriku harus bisa adaptasi dengan lingkungan yang
+            berbeda-beda. Mataku, rasanya akan tidak menyenang kan jika melihat suatu hal yang tidak rapih ataupun tidak
+            terstruktur.<br>
+            <b>Iam is me.</b></p>
+    </article>
+
+    <footer>
+        <p>My Second Portofolio
+            <pre> &#169; </pre> 2022, ArcaneryWiki</p>
+    </footer>
+</body>
+
+</html>
