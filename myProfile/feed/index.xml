@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title></title>
+	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
+	<link></link>
+	<description></description>
+	<lastBuildDate>Wed, 12 Oct 2022 01:14:00 +0000</lastBuildDate>
+	<language>id</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1</generator>
+	<item>
+		<title>Hello World!</title>
+		<link>/2022/10/12/hello-world/</link>
+					<comments>/2022/10/12/hello-world/#respond</comments>
+		
+		<dc:creator><![CDATA[arkanadli]]></dc:creator>
+		<pubDate>Wed, 12 Oct 2022 01:14:00 +0000</pubDate>
+				<category><![CDATA[Tak Berkategori]]></category>
+		<guid isPermaLink="false">/?p=7</guid>
+
+					<description><![CDATA[this is my first new wordpress WEBSITE !!]]></description>
+										<content:encoded><![CDATA[
+<p>this is my first new wordpress WEBSITE !!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/10/12/hello-world/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Halo dunia!</title>
+		<link>/2022/10/12/halo-dunia/</link>
+					<comments>/2022/10/12/halo-dunia/#comments</comments>
+		
+		<dc:creator><![CDATA[arkanadli]]></dc:creator>
+		<pubDate>Wed, 12 Oct 2022 01:11:44 +0000</pubDate>
+				<category><![CDATA[Tak Berkategori]]></category>
+		<guid isPermaLink="false">/?p=1</guid>
+
+					<description><![CDATA[Selamt datang di WordPress. Ini adalah pos pertama Anda. Sunting atau hapus, kemudian mulai menulis!]]></description>
+										<content:encoded><![CDATA[
+<p>Selamt datang di WordPress. Ini adalah pos pertama Anda. Sunting atau hapus, kemudian mulai menulis!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2022/10/12/halo-dunia/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Bibendum cursus</title>
+		<link>/2015/07/21/bibendum-cursus/</link>
+					<comments>/2015/07/21/bibendum-cursus/#respond</comments>
+		
+		<dc:creator><![CDATA[arkanadli]]></dc:creator>
+		<pubDate>Tue, 21 Jul 2015 09:32:48 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://demo.themegrill.com/himalayas/?p=87</guid>
+
+					<description><![CDATA[Phasellus tincidunt faucibus quam, eu bibendu nunc cursus non. Curabitur scelerisque ferm entum orci at egestas. Maecenas viverra nec velit vel aliquam  nam tincidunt midolor. Sed vitae lorem in nisl iaculis cursus. Praesent a dui elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat. Fusce viverra mauris [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Phasellus tincidunt faucibus quam, eu bibendu nunc cursus non. Curabitur scelerisque ferm entum orci at egestas. Maecenas viverra nec velit vel aliquam  nam tincidunt midolor. Sed vitae lorem in nisl iaculis cursus. Praesent a dui elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam erat volutpat. Fusce viverra mauris non libero fermentum, et finibus leo accumsan.</p>
+<p>Ut non felis egestas, cursus libero ac, interdum ipsum. Praesent maximus imperdiet massa eu tristique. Quisque interdum, leo sit amet condimentum dignissim, ipsum libero faucibus magna, et eleifend leo mi at sapien. Proin et dui mollis, blandit felis dictum, fermentum ante. Pellentesque commodo non odio nec mattis. Maecenas sit amet faucibus augue, eget consectetur lectus. In ornare imperdiet fermentum. Phasellus bibendum eros non sodales posuere. In a ultricies magna.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2015/07/21/bibendum-cursus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Aliquam luctus</title>
+		<link>/2015/07/21/aliquam-luctus/</link>
+					<comments>/2015/07/21/aliquam-luctus/#respond</comments>
+		
+		<dc:creator><![CDATA[arkanadli]]></dc:creator>
+		<pubDate>Tue, 21 Jul 2015 09:31:41 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://demo.themegrill.com/himalayas/?p=86</guid>
+
+					<description><![CDATA[Integer ut pharetra ligula, sit amet luctus purus. Mauris rutrum neque nec ullamcorper facilisis pulvinar. Nullam quis commodo mi. Aenean luctus diam non semper consectetur. Phasellus erat justo, dictum eget pellentesque at, aliquet a magna. Etiam eget ex tempor, interdum nunc ac, vulputate felis. Phasellus lacus nisl, elementum ac dolor in, semper fermentum quam. Nullam [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Integer ut pharetra ligula, sit amet luctus purus. Mauris rutrum neque nec ullamcorper facilisis pulvinar. Nullam quis commodo mi. Aenean luctus diam non semper consectetur. Phasellus erat justo, dictum eget pellentesque at, aliquet a magna. Etiam eget ex tempor, interdum nunc ac, vulputate felis. Phasellus lacus nisl, elementum ac dolor in, semper fermentum quam. Nullam in orci convallis, convallis risus et, mollis ligula. Sed vehicula blandit quam, non placerat diam vulputate non. Nulla dignissim imperdiet lorem, convallis condimentum ipsum consectetur sit amet. Aliquam luctus leo a risus suscipit faucibus. Sed elementum massa sollicitudin tortor facilisis, eget molestie nibh lacinia. Nullam dictum, eros vel pulvinar luctus, mauris libero placerat orci, nec condimentum felis leo sit amet eros. Curabitur venenatis condimentum mauris, tincidunt porttitor purus varius a. Nulla mattis ligula dolor, vitae tempus leo faucibus eget. Fusce dictum, quam eget interdum tincidunt, turpis quam lacinia purus, a pretium enim erat eu sapien.</p>
+<p>Fusce quis volutpat enim, quis mattis erat. Nulla facilisi. Nulla dapibus nisl a odio hendrerit, sit amet semper ex tristique. Praesent et enim erat. Suspendisse mollis tincidunt bibendum. Integer posuere tortor ac volutpat efficitur. Nunc felis augue, maximus at velit vel, pulvinar bibendum ipsum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla facilisi. Ut vel libero neque.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2015/07/21/aliquam-luctus/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hall of Flowers</title>
+		<link>/2015/07/21/hall-of-flowers/</link>
+					<comments>/2015/07/21/hall-of-flowers/#respond</comments>
+		
+		<dc:creator><![CDATA[arkanadli]]></dc:creator>
+		<pubDate>Tue, 21 Jul 2015 09:30:07 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://demo.themegrill.com/himalayas/?p=85</guid>
+
+					<description><![CDATA[Aliquam elemen tum massa at placerat elemen tum. Vestibu lum eu luctus turpis. Vivamus dictum ipsum vel ex vehicula, a mollis dolor aliquam varius tellus. Vestibu lum metus nibh, bibendum sed mi ut, scelerisque porta felis. Quisque fermentum et mauris ut condimentum. Quisque eget ante vel ante porta rhoncus ullamcorper vitae diam. Donec egestas gravida [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Aliquam elemen tum massa at placerat elemen tum. Vestibu lum eu luctus turpis. Vivamus dictum ipsum vel ex vehicula, a mollis dolor aliquam varius tellus. Vestibu lum metus nibh, bibendum sed mi ut, scelerisque porta felis. Quisque fermentum et mauris ut condimentum. Quisque eget ante vel ante porta rhoncus ullamcorper vitae diam. Donec egestas gravida purus eu finibus. Proin elementum dictum libero consectetur consequat. Fusce eu diam non nibh eleifend hendrerit at nec mauris. In sodales erat quis imperdiet tempor. Donec lobortis, nisl eu fermentum vestibulum, mi enim condimentum sem, et finibus urna elit vel velit.</p>
+<p>Duis condimentum risus eu sem consequat, sed varius tellus feugiat. Mauris tristique, quam sed pulvinar elementum, quam libero egestas eros, et bibendum justo justo in erat. In rutrum sollicitudin luctus. Etiam nec diam maximus, rutrum magna eu, maximus augue. Pellentesque sapien sapien, dignissim nec varius non, tincidunt vitae nulla. Sed dictum sapien sit amet felis ornare, eget pulvinar est gravida. In ultrices eleifend malesuada.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2015/07/21/hall-of-flowers/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hello world!</title>
+		<link>/2015/07/20/hello-world-2/</link>
+					<comments>/2015/07/20/hello-world-2/#respond</comments>
+		
+		<dc:creator><![CDATA[arkanadli]]></dc:creator>
+		<pubDate>Mon, 20 Jul 2015 08:38:26 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">http://demo.themegrill.com/himalayas/?p=1</guid>
+
+					<description><![CDATA[Welcome to ThemeGrill Demo. This is your first post. Edit or delete it, then start blogging!]]></description>
+										<content:encoded><![CDATA[<p>Welcome to <a href="http://demo.themegrill.com/">ThemeGrill Demo</a>. This is your first post. Edit or delete it, then start blogging!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>/2015/07/20/hello-world-2/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
