@@ -1,0 +1,105 @@
+.absolut {
+  position: absolute;
+}
+
+.fontstyle {
+  /*gaya font*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  width: 90px;
+  position: relative;
+}
+
+.jmb {
+  background-image: url(../websitecss/backgound1.png);
+  height: 600px;
+}
+
+.profil {
+  margin-top: -30px;
+  margin-left: 800px;
+  width: 450px;
+}
+
+.jmb-text {
+  /*penempatan posisi teks jumbotrone*/
+  margin-top: -350px;
+  margin-left: 150px;
+  text-align: start;
+}
+
+.websitebarrier1 {
+  background-image: url(../websitecss/10.gif);
+  background-size: cover;
+  height: 200px;
+  margin-top: -16px;
+}
+/*komentar*/
+.websitebarrier2 {
+  /*background text web barrier*/
+  padding: 20px;
+  background-clip: content-box;
+  position: relative; /*tidak akan mengganggu elemen mana saja (maju satu dimensi)*/
+  background-color: rgba(142, 180, 155, 0.719);
+  font-size: 80px;
+  width: 600px;
+  margin-left: 380px;
+  top: 20px;
+}
+
+.biobackgroundsetting {
+  background-image: url(../websitecss/backgound1.png); /*background 2*/
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex; /*Display flex di dalam CSS berfungsi untuk membuat elemen-elemen yang ada di dalamnya menjadi sejajar kesamping dengan rapih atau sesuai dengan keinginan yang kalian mau.*/
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main img {
+  margin-top: 80px;
+}
+
+.bio-text h2 {
+  color: red;
+  margin-top: 100px;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+
+.bio-text h5 {
+  color: yellow;
+  letter-spacing: 2px; /*Letter Spacing pada CSS berfungsi untuk mengatur jarak antar karakter atau bisa disebut juga untuk mengatur jarak antar teks didalam sebuah halaman website.*/
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize; /*Properti text-transform pada CSS digunakan untuk membuat teks menjadi huruf besar (uppercase) dan huruf kecil (lowercase) dalam teks.*/
+}
+
+.bio-text p {
+  letter-spacing: 1px;
+  width: 550px;
+}
+
+.logohubungi {
+  width: 40px;
+  position: relative;
+  margin-bottom: 75px;
+  margin-left: 20px;
+}
+
+.abaoutbackgroundsetting {
+  /*background 3*/
+  background-image: url(projects/backgound1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+}
