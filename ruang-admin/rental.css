@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+body {
+  font-family: 'Fira Code', monospace;
+  background-color: #080c19;
+}
+
+/* navbar */
+
+
+/* jumbotrone */
+.jumbotron {
+  background-image: url(imgweb/backgroundnav.jpg);
+  margin-top: -150px;
+  height: 1000px;
+}
+
+.jumbotron p {
+  font-size: 60px;
+  padding-top: 330px;
+  font-family: 'Michroma', sans-serif;
+}
+.jumbotron img {
+  position: relative;
+  margin-top: 130px;
+  width: 908px;
+  z-index: 2;
+}
+
+.btn-anim {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.btn-anim:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  transition: width 0.3s ease-out, height 0.3s ease-out;
+}
+
+.btn-anim:hover:after {
+  width: 300px;
+  height: 300px;
+}
+
+/* jumbotrone */
+
+/* feedback */
+.feedback {
+  background-color: #080c19;
+  height: auto;
+}
+.feedback p {
+  margin-top: -100px;
+  position: relative;
+}
+.feedback h1 {
+  margin: 160px 0px 0px 40px;
+}
+.posisi {
+  margin-top: -190px;
+}
+.lingkaran1 {
+  border-radius: 1%;
+  background: #0b1432;
+  position: relative;
+  height: 464px;
+  width: 366px;
+  /* padding: 95px; */
+  padding: 50px 80px 150px 80px;
+}
+.lingkaran2 {
+  border-radius: 1%;
+  background: #20318a;
+  position: relative;
+  height: 464px;
+  width: 366px;
+  padding: 50px 80px 150px 80px;
+}
+.lingkaran3 {
+  border-radius: 1%;
+  background: #191f3f;
+  position: relative;
+  height: 464px;
+  width: 366px;
+  padding: 50px 80px 150px 80px;
+}
+
+/* owl-carosel */
+.owel h1 {
+  font-size: 40px;
+  margin-top: 200px;
+  font-family: 'Michroma', sans-serif;
+}
+/* owl-carosel */
+
+.styleImg img {
+  object-fit: contain;
+  aspect-ratio: 3/2;
+}
+
+/* feedback */
+
+/* informasi */
+
+.infr p {
+  /* margin-top: -200px; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* informasi */
+
+.batas h1 {
+  font-family: 'Michroma', sans-serif;
+  color: #ffffffcb;
+}
+/* wraper */
+
+.wrapper {
+  background-color: #080c19;
+}
+
+@media screen and (min-width: 960px) {
+  #PF {
+    width: 20%;
+  }
+
+  .button-simp {
+    font-size: 12px;
+  }
+
+  .login-box {
+    margin-top: 200px;
+  }
+
+  .m-footer {
+    margin-top: 150px;
+    width: 550px;
+  }
+
+  .line-footer {
+    margin-top: -52px;
+    width: 220px;
+    margin-left: 728px;
+  }
+
+  .line-footer-kiri {
+    margin-top: -1px;
+    width: 250px;
+    margin-left: -790px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .login-box {
+    margin-top: 300px;
+  }
+
+  .kontak {
+    margin-left: 10px;
+    float: left;
+  }
+
+  .m-footer {
+    margin-top: 600px;
+    width: 750px;
+  }
+
+  .line-footer {
+    margin-top: -65px;
+    width: 320px;
+    margin-left: 1020px;
+  }
+
+  .line-footer-kiri {
+    margin-top: 10px;
+    width: 310px;
+    margin-left: -1040px;
+  }
+}
+
+/* ------------------------- */
+
+/* responsive background */
+
+@media screen and (max-width: 950px) {
+  #PF {
+    width: 20%;
+  }
+
+  .login-box {
+    margin-top: 350px;
+    padding-bottom: 250px;
+  }
+
+  .m-footer {
+    margin-top: 450px;
+    width: 550px;
+  }
+
+  .line-footer {
+    margin-top: -52px;
+    width: 220px;
+    margin-left: 728px;
+  }
+
+  .line-footer-kiri {
+    margin-top: -1px;
+    width: 250px;
+    margin-left: -790px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #PF {
+    width: 30%;
+  }
+
+  .login-box {
+    margin-top: 300px;
+    padding-bottom: 250px;
+  }
+
+  .m-footer {
+    margin-top: 400px;
+    width: 450px;
+  }
+
+  .line-footer {
+    margin-top: -48px;
+    width: 180px;
+    margin-left: 580px;
+  }
+
+  .line-footer-kiri {
+    margin-top: -1px;
+    width: 170px;
+    margin-left: -600px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #PF {
+    width: 40%;
+  }
+
+  .login-box {
+    margin-top: 350px;
+    padding-bottom: 250px;
+  }
+
+  .m-footer {
+    margin-top: 500px;
+    width: 350px;
+  }
+
+  .line-footer {
+    margin-top: -42px;
+    width: 75px;
+    margin-left: 405px;
+  }
+
+  .line-footer-kiri {
+    margin-top: -3px;
+    width: 125px;
+    margin-left: -450px;
+  }
+}
+
+#innova {
+  margin-top: -500px;
+  max-width: 100%;
+  height: auto;
+}
+
+.kontak {
+  margin-top: 55px;
+  float: left;
+  padding-left: 150px;
+  background-color: #080c19;
+}
+
+.isi {
+  margin-top: 60px;
+  padding-left: 40px;
+  float: left;
+  text-align: left;
+  font-family: 'Karla', sans-serif;
+  color: #d9d9d9;
+}
+
+.ident {
+  margin-top: 50px;
+  font-family: 'Karla', sans-serif;
+  color: #d9d9d9;
+  text-align: left;
+  float: left;
+  margin-left: 150px;
+}
+
+.sosmed {
+  display: flex;
+  flex-direction: row;
+}
+
+.sosmed li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.gambar-footer {
+  float: right;
+  margin-top: 40px;
+  margin-right: 50px;
+}
+
+#IG {
+  width: 45px;
+}
+#FB {
+  width: 40px;
+}
+#twitt {
+  width: 45px;
+}
+
+#logo-footer {
+  width: 150px;
+}
+
+.cr {
+  float: left;
+  margin-top: 20px;
+  font-family: 'Karla', sans-serif;
+  color: #d9d9d9;
+  font-size: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}

@@ -1,0 +1,16 @@
+body {
+  background-color: #191f3f;
+}
+
+.jumbotron {
+  color: white;
+  margin-top: 100px;
+}
+.lead {
+  margin-top: 30px;
+}
+
+.infr {
+  margin-top: 100px;
+  color: white;
+}

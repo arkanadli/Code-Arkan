@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #20318a;
+  height: 100px;
+  font-family: 'Michroma', sans-serif;
+  color: #ffffff;
+}
+.template p {
+  font-size: 50px;
+  text-shadow: 3px 2px 2px black;
+}
+.template img {
+  /* margin-left: 580px; */
+  /* margin-top: -200px; */
+  /* width: 100%; */
+  left: 49%;
+  position: relative;
+  width: 250px;
+}
+h1 {
+  font-family: 'Poppins' sans-serif;
+  position: absolute;
+  margin-top: 233px;
+  position: relative;
+  margin-left: 495px;
+  color: white;
+  font-weight: 500;
+  font-size: 62px;
+}
+
+form {
+  height: 650px;
+  margin-top: 355px;
+  /* padding-top: 400px; */
+  width: 400px;
+  background-color: rgba(255, 255, 255, 0.13);
+  position: relative;
+  transform: translate(-50%, -50%);
+  /* top: 80%; */
+  left: 50%;
+  /* margin: 0px 700px; */
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(21, 22, 22, 0.596);
+  padding: 50px 35px;
+}
+form * {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+form h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(250, 250, 250, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+}
+::placeholder {
+  color: #e5e5e5;
+}
+.tombol {
+  margin-top: 50px;
+  /* z-index: 100; */
+  margin-left: -5px;
+  position: absolute;
+  background-color: #ffffff;
+  color: #080710;
+  padding: 10px 130px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 200px;
+}
+
+/*hide password*/
+#toggle {
+  position: absolute;
+  top: 45%;
+  right: 46px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background: url(imglog/show.png);
+  background-size: cover;
+  cursor: pointer;
+}
+#toggle.hide {
+  background: url(imglog/hidden.png);
+  background-size: cover;
+}
+/*end hide*/
+/*hide password*/
+#togg {
+  position: absolute;
+  top: 63%;
+  right: 46px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  background: url(imglog/show.png);
+  background-size: cover;
+  cursor: pointer;
+}
+#togg.hide {
+  background: url(imglog/hidden.png);
+  background-size: cover;
+}
+/*end hide*/
+
+img {
+  position: static;
+  width: 500px;
+  margin-left: -100px;
+  margin-top: 110px;
+}
+
+/* tombol */
+
+.tombol {
+  transition: all 0.3s ease;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tombol:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}

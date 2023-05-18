@@ -1,0 +1,1229 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  background-color: #01204f;
+}
+
+@media screen and (min-width: 960px) {
+  .m-footer {
+    margin-top: 250px;
+    width: 550px;
+  }
+
+  .line-footer {
+    margin-top: -52px;
+    width: 220px;
+    margin-left: 728px;
+  }
+
+  .line-footer-kiri {
+    margin-top: -1px;
+    width: 250px;
+    margin-left: -790px;
+  }
+
+  .kursi {
+    margin-left: -450px;
+    margin-top: 50px;
+    width: 90px;
+  }
+  .seat {
+    font-family: 'Inter', sans-serif;
+    margin-left: -350px;
+    margin-top: -40px;
+  }
+
+  .bensin {
+    margin-left: -450px;
+    margin-top: 70px;
+    width: 90px;
+  }
+
+  .liter {
+    font-family: 'Inter', sans-serif;
+    margin-left: -320px;
+    margin-top: -40px;
+  }
+
+  .trans {
+    margin-left: -50px;
+    margin-top: -90px;
+  }
+
+  .mesin {
+    margin-left: -50px;
+    margin-top: 50px;
+  }
+
+  .box1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 600px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .spe {
+    margin-left: -470px;
+    margin-top: -180px;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+  }
+
+  .catatan {
+    margin-top: 50px;
+    margin-left: -500px;
+  }
+
+  .mensi {
+    margin-top: 3px;
+    margin-left: -150px;
+  }
+
+  .uang {
+    width: fit-content;
+    margin: auto;
+    margin-left: 80px;
+    margin-top: -10px;
+    font-size: 13px;
+  }
+
+  .driver {
+    margin-left: 160px;
+  }
+
+  .garis-s {
+    margin-top: 100px;
+  }
+
+  .huruf-f {
+    width: fit-content;
+    margin: auto;
+    margin-top: -40px;
+    margin-left: 200px;
+  }
+
+  .angka {
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-size: 13px;
+  }
+
+  .harga {
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 13px;
+  }
+
+  .huruf {
+    width: fit-content;
+    max-width: 1024px;
+    margin: auto;
+    margin-top: -50px;
+    margin-left: 200px;
+  }
+  .brand {
+    float: center;
+  }
+
+  .example {
+    margin-top: -250px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+  }
+
+  .garis {
+    margin-top: -200px;
+  }
+
+  .mobil {
+    width: 550px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gbr {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .button-28 {
+    margin-top: 40px;
+    margin-left: -470px;
+    appearance: none;
+    background: #e6e9ef;
+    border: 2px solid hsla(0, 0%, 100%, 0.365);
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 7px;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 10px;
+    min-width: 0;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    will-change: transform;
+  }
+
+  .button-28:disabled {
+    pointer-events: none;
+  }
+
+  .button-28:hover {
+    color: rgb(41, 39, 39);
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.815);
+    transform: translateY(-2px);
+  }
+
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .kontak {
+    margin-top: 30px;
+    float: left;
+  }
+
+  .m-footer {
+    margin-top: 250px;
+    width: 750px;
+  }
+
+  .line-footer {
+    margin-top: -65px;
+    width: 320px;
+    margin-left: 1020px;
+  }
+
+  .line-footer-kiri {
+    margin-top: 10px;
+    width: 310px;
+    margin-left: -1040px;
+  }
+
+  .kursi {
+    margin-left: -690px;
+    margin-top: 50px;
+    width: 90px;
+  }
+  .seat {
+    font-family: 'Inter', sans-serif;
+    margin-left: -580px;
+    margin-top: -40px;
+  }
+
+  .bensin {
+    margin-left: -690px;
+    margin-top: 70px;
+    width: 90px;
+  }
+
+  .liter {
+    font-family: 'Inter', sans-serif;
+    margin-left: -550px;
+    margin-top: -40px;
+  }
+
+  .trans {
+    margin-left: -250px;
+    margin-top: -90px;
+  }
+
+  .mesin {
+    margin-left: -250px;
+    margin-top: 50px;
+  }
+
+  .container-flex {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .gbr {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobil {
+    width: 550px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .garis {
+    margin-top: -150px;
+  }
+
+  .example {
+    width: fit-content;
+    max-width: 1024px;
+    margin: auto;
+    margin-top: -300px;
+  }
+
+  .huruf {
+    width: fit-content;
+    margin: auto;
+    margin-top: -50px;
+    margin-left: 280px;
+  }
+
+  .harga {
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 280px;
+  }
+
+  .angka {
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 280px;
+  }
+
+  .garis-s {
+    margin-top: 100px;
+  }
+
+  .huruf-f {
+    width: fit-content;
+    margin: auto;
+    margin-top: -50px;
+    margin-left: 280px;
+  }
+
+  .driver {
+    margin-left: 240px;
+  }
+
+  .uang {
+    width: fit-content;
+    margin: auto;
+    margin-left: 160px;
+    margin-top: -10px;
+    font-size: 13px;
+  }
+
+  .catatan {
+    margin-top: 50px;
+    margin-left: -740px;
+  }
+
+  .mensi {
+    margin-top: 3px;
+    margin-left: -390px;
+  }
+
+  .box1 {
+    margin-top: 40px;
+    margin-left: -100px;
+    width: 600px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding-right: 700px;
+  }
+
+  .spe {
+    margin-left: -700px;
+    margin-top: -180px;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+  }
+
+  .button-28 {
+    margin-top: 40px;
+    margin-left: -670px;
+    appearance: none;
+    background: #e6e9ef;
+    border: 2px solid hsla(0, 0%, 100%, 0.365);
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 10px;
+    min-width: 0;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    will-change: transform;
+  }
+
+  .button-28:disabled {
+    pointer-events: none;
+  }
+
+  .button-28:hover {
+    color: rgb(41, 39, 39);
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.815);
+    transform: translateY(-2px);
+  }
+
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+}
+
+/* ------------------------- */
+
+/* responsive background */
+
+@media screen and (max-width: 950px) {
+  .m-footer {
+    margin-top: 250px;
+    width: 550px;
+  }
+
+  .line-footer {
+    margin-top: -52px;
+    width: 220px;
+    margin-left: 728px;
+  }
+
+  .line-footer-kiri {
+    margin-top: -1px;
+    width: 250px;
+    margin-left: -790px;
+  }
+
+  .kursi {
+    margin-left: -450px;
+    margin-top: 50px;
+    width: 90px;
+  }
+  .seat {
+    font-family: 'Inter', sans-serif;
+    margin-left: -350px;
+    margin-top: -40px;
+  }
+
+  .bensin {
+    margin-left: -450px;
+    margin-top: 70px;
+    width: 90px;
+  }
+
+  .liter {
+    font-family: 'Inter', sans-serif;
+    margin-left: -320px;
+    margin-top: -40px;
+  }
+
+  .trans {
+    margin-left: -50px;
+    margin-top: -90px;
+  }
+
+  .mesin {
+    margin-left: -50px;
+    margin-top: 50px;
+  }
+
+  .gbr {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobil {
+    width: 550px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .garis {
+    margin-top: -200px;
+  }
+
+  .example {
+    margin-top: -250px;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+  }
+
+  .huruf {
+    width: fit-content;
+    margin: auto;
+    margin-top: -40px;
+    margin-left: 200px;
+  }
+
+  .harga {
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 13px;
+  }
+
+  .angka {
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 200px;
+  }
+
+  .garis-s {
+    margin-top: 100px;
+  }
+
+  .huruf-f {
+    width: fit-content;
+    margin: auto;
+    margin-top: -40px;
+    margin-left: 200px;
+  }
+
+  .driver {
+    margin-left: 160px;
+  }
+
+  .uang {
+    width: fit-content;
+    margin: auto;
+    margin-left: 80px;
+    margin-top: -10px;
+    font-size: 13px;
+  }
+
+  .catatan {
+    margin-top: 50px;
+    margin-left: -500px;
+  }
+
+  .mensi {
+    margin-top: 3px;
+    margin-left: -150px;
+  }
+
+  .box1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 600px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .spe {
+    margin-left: -470px;
+    margin-top: -180px;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+  }
+
+  .button-28 {
+    margin-top: 40px;
+    margin-left: -470px;
+    appearance: none;
+    background: #e6e9ef;
+    border: 2px solid hsla(0, 0%, 100%, 0.365);
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 7px;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 10px;
+    min-width: 0;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    will-change: transform;
+  }
+
+  .button-28:disabled {
+    pointer-events: none;
+  }
+
+  .button-28:hover {
+    color: rgb(41, 39, 39);
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.815);
+    transform: translateY(-2px);
+  }
+
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .m-footer {
+    margin-top: 250px;
+    width: 450px;
+  }
+
+  .line-footer {
+    margin-top: -48px;
+    width: 180px;
+    margin-left: 580px;
+  }
+
+  .line-footer-kiri {
+    margin-top: -1px;
+    width: 170px;
+    margin-left: -600px;
+  }
+
+  .kursi {
+    margin-left: -350px;
+    margin-top: 50px;
+    width: 90px;
+  }
+  .seat {
+    font-family: 'Inter', sans-serif;
+    margin-left: -250px;
+    margin-top: -40px;
+  }
+
+  .bensin {
+    margin-left: -350px;
+    margin-top: 70px;
+    width: 90px;
+  }
+
+  .liter {
+    font-family: 'Inter', sans-serif;
+    margin-left: -220px;
+    margin-top: -40px;
+  }
+
+  .trans {
+    margin-left: 150px;
+    margin-top: -90px;
+  }
+
+  .mesin {
+    margin-left: 150px;
+    margin-top: 50px;
+  }
+
+  .box1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 500px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .spe {
+    margin-left: -370px;
+    margin-top: -180px;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+  }
+
+  .gbr {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobil {
+    width: 350px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .garis {
+    margin-top: -50px;
+  }
+
+  .example {
+    margin-top: -200px;
+    margin-left: auto;
+
+    font-size: 15px;
+  }
+
+  .huruf {
+    width: fit-content;
+    margin: auto;
+    margin-top: -40px;
+    margin-left: 160px;
+  }
+  .harga {
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 160px;
+
+    font-size: 10px;
+  }
+
+  .angka {
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 160px;
+  }
+
+  .garis-s {
+    margin-top: 100px;
+  }
+
+  .huruf-f {
+    width: fit-content;
+    margin: auto;
+    margin-top: -40px;
+    margin-left: 160px;
+  }
+
+  .driver {
+    margin-left: 120px;
+  }
+
+  .uang {
+    width: fit-content;
+    margin: auto;
+    margin-left: 40px;
+    margin-top: -10px;
+    font-size: 13px;
+  }
+
+  .catatan {
+    margin-top: 50px;
+    margin-left: -400px;
+  }
+
+  .mensi {
+    margin-top: 3px;
+    margin-left: -50px;
+  }
+
+  .button-28 {
+    margin-top: 40px;
+    margin-left: -370px;
+    appearance: none;
+    background: #e6e9ef;
+    border: 2px solid hsla(0, 0%, 100%, 0.365);
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 7px;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 10px;
+    min-width: 0;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    will-change: transform;
+  }
+
+  .button-28:disabled {
+    pointer-events: none;
+  }
+
+  .button-28:hover {
+    color: rgb(41, 39, 39);
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.815);
+    transform: translateY(-2px);
+  }
+
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .m-footer {
+    margin-top: 250px;
+    width: 350px;
+  }
+
+  .line-footer {
+    margin-top: -42px;
+    width: 75px;
+    margin-left: 405px;
+  }
+
+  .line-footer-kiri {
+    margin-top: -3px;
+    width: 125px;
+    margin-left: -450px;
+  }
+
+  .kursi {
+    margin-left: -300px;
+    margin-top: 50px;
+    width: 90px;
+  }
+  .seat {
+    font-family: 'Inter', sans-serif;
+    margin-left: -200px;
+    margin-top: -40px;
+  }
+
+  .bensin {
+    margin-left: -300px;
+    margin-top: 60px;
+    width: 30px;
+  }
+
+  .liter {
+    font-family: 'Inter', sans-serif;
+    margin-left: -180px;
+    margin-top: -30px;
+  }
+
+  .trans {
+    margin-left: 200px;
+    margin-top: -90px;
+  }
+
+  .mesin {
+    margin-left: 210px;
+    margin-top: 60px;
+  }
+
+  .gbr {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .mobil {
+    width: 250px;
+    height: 150px;
+    margin-top: -20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .garis {
+    margin-top: -50px;
+  }
+
+  .example {
+    margin-top: -150px;
+    margin-left: auto;
+    font-size: 10px;
+  }
+
+  .huruf {
+    width: fit-content;
+    margin: auto;
+    margin-top: -30px;
+    margin-left: 120px;
+    font-size: 10px;
+  }
+
+  .harga {
+    width: fit-content;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: 10px;
+  }
+
+  .angka {
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 120px;
+    font-size: 10px;
+  }
+
+  .garis-s {
+    margin-top: 100px;
+  }
+
+  .huruf-f {
+    width: fit-content;
+    margin: auto;
+    margin-top: -30px;
+    margin-left: 120px;
+    font-size: 10px;
+  }
+
+  .driver {
+    margin-left: 80px;
+    font-size: 12px;
+  }
+
+  .uang {
+    width: fit-content;
+    margin: auto;
+    margin-left: -1px;
+    margin-top: -20px;
+    font-size: 10px;
+  }
+
+  .catatan {
+    margin-top: 50px;
+    margin-left: -300px;
+    font-size: 5px;
+  }
+
+  .mensi {
+    margin-top: 3px;
+    margin-left: 50px;
+  }
+
+  .box1 {
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 400px;
+    height: 250px;
+    color: rgb(0, 0, 0);
+
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .spe {
+    margin-left: -290px;
+    margin-top: -220px;
+    font-family: 'Righteous', cursive;
+    font-size: 15px;
+  }
+
+  .button-28 {
+    margin-top: 40px;
+    margin-left: -270px;
+    appearance: none;
+    background: #e6e9ef;
+    border: 2px solid hsla(0, 0%, 100%, 0.365);
+    border-radius: 30px;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 0%);
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 7px;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 10px;
+    min-width: 0;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    will-change: transform;
+  }
+
+  .button-28:disabled {
+    pointer-events: none;
+  }
+
+  .button-28:hover {
+    color: rgb(41, 39, 39);
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.815);
+    transform: translateY(-2px);
+  }
+
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+  }
+}
+
+#innova {
+  margin-top: -500px;
+  max-width: 100%;
+  height: auto;
+}
+
+#line {
+  max-width: 60%;
+}
+
+div.example {
+  color: aliceblue;
+  font-family: 'Quando', serif;
+  font-style: normal;
+  position: relative;
+}
+
+#gambar {
+  margin-top: -150px;
+  max-width: 100%;
+  height: auto;
+}
+
+div.huruf {
+  color: aliceblue;
+  font-family: 'Righteous', cursive;
+  font-style: normal;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+div.huruf-f {
+  color: aliceblue;
+  font-family: 'Righteous', cursive;
+  font-style: normal;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+div.harga {
+  color: aliceblue;
+  font-family: 'Righteous', cursive;
+  font-style: normal;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+div.angka {
+  color: rgba(182, 223, 19, 0.8);
+  font-family: 'Righteous', cursive;
+}
+
+.driver {
+  color: aliceblue;
+  font-family: 'Righteous', cursive;
+  font-style: normal;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  padding: 10px 15px;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+}
+
+.driver li {
+  list-style: none;
+  padding: 20px 25px;
+}
+
+.uang {
+  color: rgba(182, 223, 19, 0.8);
+  font-family: 'Righteous', cursive;
+  font-style: normal;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  text-decoration: none;
+  list-style: none;
+}
+
+.uang li {
+  list-style: none;
+  padding-left: 120px;
+}
+
+i {
+  color: rgba(255, 255, 255, 1);
+  font-size: 10px;
+}
+
+i p {
+  font-size: 7px;
+}
+
+div.mensi {
+  list-style-type: circle;
+}
+
+div.box1 {
+  background: #d9d9d9;
+  border-radius: 20px;
+}
+
+.kontak {
+  margin-top: 55px;
+  float: left;
+  padding-left: 150px;
+}
+
+.isi {
+  margin-top: 50px;
+  padding-left: 40px;
+  float: left;
+  text-align: left;
+  font-family: 'Karla', sans-serif;
+  color: #d9d9d9;
+}
+
+.ident {
+  margin-top: 50px;
+  font-family: 'Karla', sans-serif;
+  color: #d9d9d9;
+  text-align: left;
+  float: left;
+  margin-left: 150px;
+}
+
+.sosmed {
+  display: flex;
+  flex-direction: row;
+}
+
+.sosmed li {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.gambar-footer {
+  float: right;
+  margin-top: 70px;
+  margin-right: 150px;
+}
+
+#IG {
+  width: 45px;
+}
+#FB {
+  width: 40px;
+}
+#twitt {
+  width: 45px;
+}
+
+#logo-footer {
+  width: 150px;
+}
+
+.cr {
+  float: left;
+  margin-top: 10px;
+  font-family: 'Karla', sans-serif;
+  color: #d9d9d9;
+  font-size: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+hr {
+  width: 100%;
+  opacity: 5%;
+  color: black;
+}
+
+div .batas {
+  margin-top: 250px;
+  float: center;
+  font-family: 'Michroma', sans-serif;
+  color: #e6e9ef;
+}
