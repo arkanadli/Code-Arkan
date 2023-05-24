@@ -9,7 +9,9 @@ $gender = $_POST['gender'];
 $no_Handphone = $_POST['no_Handphone'];
 $alamat = $_POST['alamat'];
 $umur = $_POST['umur'];
- 
+
+// asdasd
+
 // menginput data ke database
 mysqli_query($koneksi,"insert into supir values('','$nama','$gender','$no_Handphone','$alamat','$umur')"); // login adalah nama table di database
  

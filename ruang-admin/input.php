@@ -6,7 +6,7 @@ include 'konek.php';
 $username = $_POST['username'];
 $password = $_POST['password'];
 
- 
+// ssadsad
 // menginput data ke database
 mysqli_query($koneksi,"insert into pelanggan values('','$username','$password','','','','','','user')"); // login adalah nama table di database
 
