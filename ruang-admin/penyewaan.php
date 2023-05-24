@@ -9,6 +9,7 @@ if (!isset($_SESSION['username'])) {
 ?>
 <html lang="en">
 
+<!-- OLEH RANGGA -->
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,7 +24,7 @@ if (!isset($_SESSION['username'])) {
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
   <link href="css/ruang-admin.min.css" rel="stylesheet" />
 </head>
-<!-- dsaasd -->
+
 <body id="page-top">
   <div id="wrapper">
     <!-- Sidebar -->
