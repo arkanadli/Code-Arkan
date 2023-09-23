@@ -43,27 +43,6 @@ body::before {
     opacity: 40%;
      
 }
-.up {
-    position: relative;
-    color:#d37d0c ;
-    background-color: #473e3e;
-}
-.up button {
-    padding: 0 0.6em;
-    left: 92%;
-    color:#ffffff ;
-    position: fixed;
-    font-size: 1em;
-    border-radius: 0.7em;
-    top: 80%;
-    z-index: 100000;
-    font-weight: 700;
-    background-color: #918c8c;
-    display: none;
-}
-button:hover {
-    background-color: #473e3e;
-}
 
 .mainpage {
     /* ini code gambar samurai, dimana hendak diisi konten nantinya */
@@ -455,13 +434,6 @@ footer p{
     animation-name: fade;
     animation-duration: 3s;
 }
-
-@media screen and (min-width:1400px) {
-    .up button {
-        display: block;
-    }
-}
-
 @media screen and (max-width: 910px) {
     header {
         flex-direction: column;
